@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    
+</head>
+<body>
+    <div class="page">
+        <h1>Chess Board</h1>
+        <div class="chess-body">
+            <!-- <div class="row oddRow">
+                <div class="column"></div>
+                <div class="column"></div>
+                <div class="column"></div>
+                <div class="column"></div>
+                <div class="column"></div>
+                <div class="column"></div>
+                <div class="column"></div>
+                <div class="column"></div>
+            </div>
+            <div class="row evenRow">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <div class="row oddRow">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <div class="row evenRow">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <div class="row oddRow">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <div class="row evenRow">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <div class="row oddRow">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <div class="row evenRow">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div> -->
+            <div class="cell odd"><i class="fa-regular fa-chess-rook"></i></div>
+            <div class="cell odd"><i class="fa-regular fa-chess-pawn"></i></div>
+            <div class="cell odd"></div>
+            <div class="cell odd"></div>
+            <div class="cell odd"></div>
+            <div class="cell odd"></div>
+            <div class="cell odd"><i class="fa-solid fa-chess-pawn"></i></div>
+            <div class="cell odd" id="box8"><i class="fa-solid fa-chess-rook"></i></div>
+
+            <div class="cell even"><i class="fa-regular fa-chess-knight"></i></div>
+            <div class="cell even"><i class="fa-regular fa-chess-pawn"></i></div>
+            <div class="cell even"></div>
+            <div class="cell even"></div>
+            <div class="cell even"></div>
+            <div class="cell even"></div>
+            <div class="cell even"><i class="fa-solid fa-chess-pawn"></i></div>
+            <div class="cell even"><i class="fa-solid fa-chess-knight"></i></div>
+
+            <div class="cell odd"><i class="fa-regular fa-chess-bishop"></i></div>
+            <div class="cell odd"><i class="fa-regular fa-chess-pawn"></i></div>
+            <div class="cell odd"></div>
+            <div class="cell odd"></div>
+            <div class="cell odd"></div>
+            <div class="cell odd"></div>
+            <div class="cell odd"><i class="fa-solid fa-chess-pawn"></i></div>
+            <div class="cell odd"><i class="fa-solid fa-chess-bishop"></i></div>
+
+            <div class="cell even"><i class="fa-regular fa-chess-queen"></i></div>
+            <div class="cell even"><i class="fa-regular fa-chess-pawn"></i></div>
+            <div class="cell even"></div>
+            <div class="cell even"></div>
+            <div class="cell even"></div>
+            <div class="cell even"></div>
+            <div class="cell even"><i class="fa-solid fa-chess-pawn"></i></div>
+            <div class="cell even"><i class="fa-solid fa-chess-queen"></i></div>
+
+            <div class="cell odd"><i class="fa-regular fa-chess-king"></i></div>
+            <div class="cell odd"><i class="fa-regular fa-chess-pawn"></i></div>
+            <div class="cell odd"></div>
+            <div class="cell odd"></div>
+            <div class="cell odd"></div>
+            <div class="cell odd"></div>
+            <div class="cell odd"><i class="fa-solid fa-chess-pawn"></i></div>
+            <div class="cell odd"><i class="fa-solid fa-chess-king"></i></div>
+
+            <div class="cell even"><i class="fa-regular fa-chess-bishop"></i></div>
+            <div class="cell even"><i class="fa-regular fa-chess-pawn"></i></div>
+            <div class="cell even"></div>
+            <div class="cell even"></div>
+            <div class="cell even"></div>
+            <div class="cell even"></div>
+            <div class="cell even"><i class="fa-solid fa-chess-pawn"></i></div>
+            <div class="cell even"><i class="fa-solid fa-chess-bishop"></i></div>
+
+            <div class="cell odd"><i class="fa-regular fa-chess-knight"></i></div>
+            <div class="cell odd"><i class="fa-regular fa-chess-pawn"></i></div>
+            <div class="cell odd"></div>
+            <div class="cell odd"></div>
+            <div class="cell odd"></div>
+            <div class="cell odd"></div>
+            <div class="cell odd"><i class="fa-solid fa-chess-pawn"></i></div>
+            <div class="cell odd"><i class="fa-solid fa-chess-knight"></i></div>
+
+            <div class="cell even" id="box57"><i class="fa-regular fa-chess-rook"></i></div>
+            <div class="cell even"><i class="fa-regular fa-chess-pawn"></i></div>
+            <div class="cell even"></div>
+            <div class="cell even"></div>
+            <div class="cell even"></div>
+            <div class="cell even"></div>
+            <div class="cell even"><i class="fa-solid fa-chess-pawn"></i></div>
+            <div class="cell even"><i class="fa-solid fa-chess-rook"></i></div>
+
+            <!-- <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div> -->
+        </div>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/4ff9c4f0d8.js"
+      crossorigin="anonymous"
+    ></script>
+</body>
+</html>
